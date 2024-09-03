@@ -1,0 +1,8 @@
+input tahun masuk
+tahun_masuk = int(input("Masukkan tahun masuk mahasiswa: "))
+
+#proses fungsi untuk menghitung semester
+semester = hitung_semester(tahun_masuk)
+
+# Output hasil semester
+print(f"Mahasiswa berada di semester {semester}")
